@@ -1,0 +1,80 @@
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+.footer {
+  color: #66fcf1;
+  z-index: -1;
+  position: fixed;
+  bottom: 0px;
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+  background-attachment: fixed;
+  background-color: #0b0c10;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d3e3e;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #545454;
+}
+
+.Body {
+  position: relative;
+  top: 200px;
+}
+
+.Title {
+  position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Login {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.accordian-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 5px;
+  height: 30px;
+}
+
+.accordian-details:hover {
+  background-color: #30373f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accordian-details-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: underline;
+}
