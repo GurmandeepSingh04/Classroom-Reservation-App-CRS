@@ -20,13 +20,14 @@ function Body(props) {
             display: { xs: "none", md: "flex" },
             textAlign: "center",
             fontFamily: "monospace",
-            fontWeight: 700,
             letterSpacing: ".1rem",
+            fontWeight: 700,
             color: "#66fcf1",
             overflowWrap: "anywhere",
             marginBlockStart: "150px",
           }}
         >
+          {/* Welcomes the user with the username of the user in the required style*/}
           Welcome {user.fullname}!
         </Typography>
         <Typography
